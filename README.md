@@ -2,11 +2,11 @@
 
 # Leaderboard
 
-> Leaderboard Project: Add name and the scores and display on the same page.
+> Leaderboard Project: Add user name and game score using Api and display name and score calling api and Json.
 
 ## Built With
 
-- html, css, js, ES6
+- html, css, js, ES6, Api
 - Install webpack
 - Eslint, StyleLint
 
