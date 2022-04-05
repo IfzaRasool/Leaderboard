@@ -1,8 +1,7 @@
 const ul = document.querySelector('.score-list');
 const userName = document.querySelector('.name');
 const gameScore = document.querySelector('.score');
-const BASE_URL =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
+const BASE_URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
 
 // display score
 const displayScore = (data) => {
