@@ -13,7 +13,7 @@
 
 ## Screenshot Demo
 
-![AddscoresPage](./images/demo.jpg)
+![AddscoresPage](./images/demo.png)
 
 ## Live Demo (if available)
 
