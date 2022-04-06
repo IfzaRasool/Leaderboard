@@ -13,20 +13,3 @@ window.addEventListener('load', () => {
   refreshBtn.addEventListener('click', () => getScores(GAME_ID));
   addBtn.addEventListener('click', () => createScore(GAME_ID));
 });
-
-// const createGame = async () => {
-//   await fetch(
-//     'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games',
-//     {
-//       method: 'POST',
-//       body: JSON.stringify({
-//         name: 'league_of_legends',
-//       }),
-//       headers: {
-//         'Content-type': 'application/json; charset=UTF-8',
-//       },
-//     }
-//   )
-//     .then((res) => res.json())
-//     .then((data) => console.log(data));
-// };
