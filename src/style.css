@@ -22,10 +22,15 @@ body {
   font-weight: normal;
   font-family: var(--font);
   color: var(--dark);
+  background-image: url("/images/bg.jpg");
+  width: max-content;
 }
 
 header {
-  color: rgb(15, 13, 13);
+  color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border: 10px solid black;
+  border-image: url('/images/border.png');
   font-size: 40px;
   margin: 4rem;
 }
@@ -72,6 +77,8 @@ button:hover {
   list-style: none;
   margin-top: 2rem;
   margin-left: 6rem;
+  height: 50%;
+  overflow: scroll;
 }
 
 .Add-section {
@@ -102,4 +109,12 @@ input::placeholder {
 
 .add-btn {
   margin-left: 6rem;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+.score-list li:nth-child(odd) {
+  background: rgb(72, 244, 250);
 }
