@@ -2,13 +2,14 @@
 
 # Leaderboard
 
-> Leaderboard Project: Add user name and game score using Api and display name and score calling api and Json.
+> Leaderboard Project: Scores submitted by different players are shown on the leaderboard page. You can also enter your score here. The external Leaderboard API service ensures that all data is retained.
 
 ## Built With
 
-- html, css, js, ES6, Api
-- Install webpack
-- Eslint, StyleLint
+- Major languages: HTML, CSS, JavaScript, ES6
+- Frameworks: N/A
+- Technologies used: Webpack, API
+- Eslint,Stylelint
 
 ## Screenshot Demo
 
