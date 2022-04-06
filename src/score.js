@@ -10,7 +10,7 @@ const displayScore = (data) => {
   ul.innerHTML = '';
   data.forEach((element) => {
     const li = document.createElement('li');
-    li.innerHTML = `${element.user}: ${element.score}`;
+    li.innerHTML = `${element.user}:  ${element.score}`;
     ul.appendChild(li);
   });
 };
