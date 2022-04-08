@@ -17,7 +17,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]
+[Live Demo Link](https://ifzarasool.github.io/Leaderboard/)
 
 ## Getting Started
 
